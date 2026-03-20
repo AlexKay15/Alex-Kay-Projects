@@ -1,63 +1,24 @@
 # Alex Kay – Computer Engineering Projects
 
+Electrical and Computer Engineering student at the University of Colorado Boulder with experience in concurrent programming, embedded systems, computer organization, interrupts, and low-level software development.
 
-## Projects
+## Featured Projects
 
 ### Concurrent Containers
 Implemented several concurrent stack and queue algorithms, including coarse-grained and lock-free data structures. This project focused on synchronization, correctness under concurrency, and performance across varying thread counts.
 
-Description:
-- Implemented concurrent stack and queue data structures
-- Worked with lock-free designs such as the Treiber stack and Michael & Scott queue
-- Explored throughput across different thread counts
-- Focused on concurrent algorithm behavior and systems-level performance
-
-Repo: [Concurrent Data Structures](https://github.com/ecen4313-fl25/finalproject-AlexKay15)
+[View project summary](./concurrent-containers)
 
 ---
 
-### Interrupt-Driven JTAG Adder
-Built a Nios II assembly program for the DE10-Lite that receives signed integer input over JTAG UART, maintains a running sum, and displays the result on the seven-segment displays. The design uses interrupts, handles negative values, and resets on overflow outside the displayable range.
+### Interrupt-Driven JTAG Adder and Stopwatch
+Built Nios II assembly projects for the DE10-Lite using interrupts, terminal I/O, and seven-segment displays.
 
-Description:
-- JTAG UART interrupt handling in Nios II assembly
-- ASCII-to-integer conversion with signed input support
-- Running signed sum with overflow wrap handling
-- Seven-segment display output for positive and negative values
-
-Repo: [Adder and Stopwatch](https://github.com/ecen2360-pds/project-3-AlexKay15)
+[View project summary](./jtag-adder-stopwatch)
 
 ---
 
-### Interrupt-Driven Stopwatch
-Built a stopwatch in Nios II assembly using timer and pushbutton interrupts. The stopwatch tracks minutes, seconds, and hundredths of a second, supports start/stop and lap functionality, and updates the seven-segment displays in real time.
+### 5-Stage Pipeline Processor (In Progress)
+Developing a multi-phase 5-stage pipelined processor in SystemVerilog for a computer organization course.
 
-Description:
-- Timer interrupt driven timekeeping
-- Pushbutton interrupt handling
-- Start, stop, lap, resume, and reset state logic
-- Real-time seven-segment display formatting
-
-Repo: [Adder and Stopwatch](https://github.com/ecen2360-pds/project-3-AlexKay15)
-
----
-
-### Computer Organization Projects
-Completed projects in datapath development, instruction support, and pipeline-oriented processor design. These projects strengthened my understanding of low-level architecture, instruction execution, and hardware-software interaction.
-
-Description:
-- Processor/datapath implementation work
-- Instruction support and control logic
-- Pipeline-oriented design and debugging
-- Assembly-level and architecture-level reasoning
-
-## Additional Work
-I also maintain coursework repositories related to:
-- embedded systems
-- interrupts and timing
-- RTOS concepts
-- hardware interfacing
-- low-level programming
-- computer organization
-
-Some repositories are course-structured and named by lab or phase. This page highlights the projects most relevant for internship-level roles.
+[View project summary](./pipeline-processor)
