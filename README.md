@@ -56,4 +56,4 @@ I also maintain coursework repositories related to:
 - low-level programming
 - computer organization
 
-Some repositories are course-structured and named by lab or phase, but this page highlights the projects most relevant for internships and engineering roles.
+Some repositories are course-structured and named by lab or phase. This page highlights the projects most relevant for internship-level roles.
