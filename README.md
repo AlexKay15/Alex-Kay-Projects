@@ -12,7 +12,7 @@ Description:
 - Explored throughput across different thread counts
 - Focused on concurrent algorithm behavior and systems-level performance
 
-Repo: [Concurrent](https://github.com/AlexKay15/Concurrent)
+Repo: [Concurrent Data Structures](https://github.com/AlexKay15/Concurrent)
 
 ---
 
