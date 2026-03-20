@@ -1,0 +1,2 @@
+Build a Nios II assembly program for the DE10-Lite that receives signed integer input over JTAG UART, maintains a running sum, and displays the result on the seven-segment displays.
+Build a stopwatch in Nios II assembly using timer and pushbutton interrupts. The stopwatch tracks minutes, seconds, and hundredths of a second, and supports start, stop, lap, resume, and reset functionality with real-time seven-segment display output.
