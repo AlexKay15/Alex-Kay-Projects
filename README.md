@@ -14,7 +14,7 @@ Implemented several concurrent stack and queue algorithms, including coarse-grai
 - Focused on concurrent algorithm behavior and systems-level performance
 
 **Code:** Private course repository  
-**Public materials:** Project summary shown here
+
 
 ---
 
@@ -30,7 +30,7 @@ Developing a real-time embedded labyrinth game on the STM32F429I-DISC1 for a Rea
 - Applying RTOS and embedded systems concepts to a multi-component interactive project
 
 **Code:** Private course repository  
-**Public materials:** Project summary shown here
+
 
 ---
 
@@ -45,7 +45,7 @@ Developing a multi-phase 5-stage pipelined processor in SystemVerilog for a comp
 - Used testbenches and waveform-based debugging to validate functionality
 
 **Code:** Private course repository  
-**Public materials:** Project summary shown here
+
 
 ---
 
@@ -59,7 +59,7 @@ Built a Nios II assembly program for the DE10-Lite that receives signed integer 
 - Displayed positive and negative values on seven-segment displays
 
 **Code:** Private course repository  
-**Public materials:** Project summary shown here
+
 
 ---
 
@@ -73,6 +73,6 @@ Built a stopwatch in Nios II assembly using timer and pushbutton interrupts. The
 - Displayed formatted real-time timing data on seven-segment displays
 
 **Code:** Private course repository  
-**Public materials:** Project summary shown here
+
 
 
