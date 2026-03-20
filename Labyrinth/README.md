@@ -1,12 +1,51 @@
-This semester, our project will be to utilize our STM32F429i-DISC1 board and its gyro, LCD, RNG, LEDs and
-button to implement an advanced version to train the next generation of ground observation drone drivers.
-While the wooden version shows the expected path, our walls and holes will be randomly generated, and
-so our science lab has augmented our design with a quantum disruptor, which when activated by the user
-button has two simultaneous effects: it will allow our eye-on-the-ground to move unimpeded through a wall,
-or to move over a hole for a brief period of time.
-We will use the 2D angle of our board “from being flat” to tip our virtual labyrinth—you could alterna-
-tively think of this as the input to your drone’s “drive motor”. The more you angle away from vertical, the
-more the drone will power itself in that direction. We will follow physics equations for a board tipped in a
-gravity field, regardless of how you like to think about it.
-The drone will be lost into a trap if the center of the drone is above any part of a trap when the Disruptor is
-inactive.
+# RTOS Labyrinth Game
+
+Developing a real-time embedded labyrinth game on the STM32F429I board using gyroscope input, LCD graphics, LEDs, button input, random maze generation, and game-state logic.
+
+This project reimagines the classic tabletop marble maze as an interactive embedded system. The player controls movement by tilting the board, while the game uses onboard peripherals and real-time update logic to manage motion, hazards, and feedback.
+
+## Overview
+
+The system uses the board’s 2D tilt as input to control motion through a virtual maze. The maze contains randomly generated walls and traps, and the player must navigate while avoiding hazards.
+
+A special disruptor mechanic adds an additional gameplay element: when activated with the user button, it temporarily allows movement through walls or over traps.
+
+## Technical Highlights
+
+- Built a real-time game loop with fixed-rate physics updates
+- Used gyroscope input to control motion through a virtual maze
+- Generated randomized maze layouts with walls, holes, and navigation goals
+- Integrated LCD graphics for game visualization
+- Used LEDs and button input for embedded feedback and control
+- Implemented temporary disruptor behavior as part of the gameplay system
+- Applied real-time embedded design concepts to a multi-component interactive project
+
+## System Features
+
+- Tilt-based movement using onboard sensors
+- Randomized game environments
+- Trap and collision handling
+- Temporary power-up / disruptor behavior
+- Embedded visual and hardware feedback
+- Real-time response to player input
+
+## What I Learned
+
+This project has involved:
+- real-time embedded software design
+- sensor-driven input handling
+- game-state and physics update logic
+- hardware/software integration
+- working with multiple peripherals in a single embedded system
+
+## Tools and Topics
+
+- STM32F429I-DISC1
+- Embedded C / low-level embedded development
+- RTOS concepts
+- Gyroscope input
+- LCD graphics
+- RNG / randomized generation
+- Real-time control loops
+
+
