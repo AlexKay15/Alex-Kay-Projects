@@ -19,7 +19,7 @@ Repo: [Concurrent](https://github.com/AlexKay15/Concurrent)
 ### Interrupt-Driven JTAG Adder
 Built a Nios II assembly program for the DE10-Lite that receives signed integer input over JTAG UART, maintains a running sum, and displays the result on the seven-segment displays. The design uses interrupts, handles negative values, and resets on overflow outside the displayable range.
 
-**Highlights:**
+Description:
 - JTAG UART interrupt handling in Nios II assembly
 - ASCII-to-integer conversion with signed input support
 - Running signed sum with overflow wrap handling
@@ -30,7 +30,7 @@ Built a Nios II assembly program for the DE10-Lite that receives signed integer 
 ### Interrupt-Driven Stopwatch
 Built a stopwatch in Nios II assembly using timer and pushbutton interrupts. The stopwatch tracks minutes, seconds, and hundredths of a second, supports start/stop and lap functionality, and updates the seven-segment displays in real time.
 
-**Highlights:**
+Description:
 - Timer interrupt driven timekeeping
 - Pushbutton interrupt handling
 - Start, stop, lap, resume, and reset state logic
@@ -41,7 +41,7 @@ Built a stopwatch in Nios II assembly using timer and pushbutton interrupts. The
 ### Computer Organization Projects
 Completed projects in datapath development, instruction support, and pipeline-oriented processor design. These projects strengthened my understanding of low-level architecture, instruction execution, and hardware-software interaction.
 
-**Highlights:**
+Description:
 - Processor/datapath implementation work
 - Instruction support and control logic
 - Pipeline-oriented design and debugging
