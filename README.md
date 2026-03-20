@@ -12,7 +12,7 @@ Description:
 - Explored throughput across different thread counts
 - Focused on concurrent algorithm behavior and systems-level performance
 
-Repo: [Concurrent Data Structures](https://github.com/AlexKay15/Concurrent)
+Repo: [Concurrent Data Structures](https://github.com/ecen4313-fl25/finalproject-AlexKay15)
 
 ---
 
@@ -25,6 +25,8 @@ Description:
 - Running signed sum with overflow wrap handling
 - Seven-segment display output for positive and negative values
 
+Repo: [Adder and Stopwatch](https://github.com/ecen2360-pds/project-3-AlexKay15)
+
 ---
 
 ### Interrupt-Driven Stopwatch
@@ -35,6 +37,8 @@ Description:
 - Pushbutton interrupt handling
 - Start, stop, lap, resume, and reset state logic
 - Real-time seven-segment display formatting
+
+Repo: [Adder and Stopwatch](https://github.com/ecen2360-pds/project-3-AlexKay15)
 
 ---
 
