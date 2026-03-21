@@ -18,7 +18,7 @@ Implemented several concurrent stack and queue algorithms, including coarse-grai
 ---
 
 ### RTOS Labyrinth Game (In Progress)
-Developing a real-time embedded labyrinth game on the STM32F429I-DISC1 for a Real-Time Operating Systems course. The project uses gyroscope input, LCD graphics, LEDs, button input, and randomized maze generation to create a physics-based maze game.
+Developing a real-time embedded labyrinth game on the STM32F429I-DISC1 board using gyroscope input, LCD graphics, LEDs, button input, random maze generation, and game-state logic.
 
 **Description:**
 - Developing a real-time game loop with fixed-rate physics updates
@@ -49,7 +49,7 @@ Developing a multi-phase 5-stage pipelined processor in SystemVerilog for a comp
 ---
 
 ### Interrupt-Driven JTAG Adder
-Built a Nios II assembly program for the DE10-Lite that receives signed integer input over JTAG UART, maintains a running sum, and displays the result on seven-segment displays. The design uses interrupts, supports negative values, and resets when the running total exceeds the supported display range.
+Built a Nios II assembly program for the DE10-Lite board that receives signed integer input over JTAG UART, maintains a running sum, and displays the result on seven-segment displays. The design uses interrupts, supports negative values, and resets when the running total exceeds the supported display range.
 
 **Description:**
 - Implemented JTAG UART interrupt handling in Nios II assembly
