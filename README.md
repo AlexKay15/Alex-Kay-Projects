@@ -54,7 +54,7 @@ Built a Nios II assembly program for the DE10-Lite that receives signed integer 
 **Description:**
 - Implemented JTAG UART interrupt handling in Nios II assembly
 - Converted ASCII terminal input into signed integers
-- Maintained a running signed sum with overflow wrap handling
+- Maintained a running signed sum with out-of-range reset behavior
 - Displayed positive and negative values on seven-segment displays
 
 **Code:** Private course repository  
