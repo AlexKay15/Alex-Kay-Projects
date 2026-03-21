@@ -2,6 +2,7 @@
 
 Electrical and Computer Engineering student at the University of Colorado Boulder with experience in concurrent programming, real-time operating systems, embedded systems, computer organization, interrupt-driven systems, and low-level software development.
 ## Featured Projects
+NOTE: These projects were completed in private repositories at the request of my instructors. Each folder contains a brief README.md describing the project, my contributions, and the technical work involved.
 
 ### Concurrent Containers
 Implemented several concurrent stack and queue algorithms, including coarse-grained and lock-free data structures. This project focused on synchronization, correctness under concurrency, and performance across varying thread counts.
@@ -12,7 +13,7 @@ Implemented several concurrent stack and queue algorithms, including coarse-grai
 - Explored throughput across different thread counts
 - Focused on concurrent algorithm behavior and systems-level performance
 
-**Code:** Private course repository  
+
 
 
 ---
@@ -28,7 +29,7 @@ Developing a real-time embedded labyrinth game on the STM32F429I-DISC1 board usi
 - Implementing energy-based disruptor behavior as part of the game mechanics
 - Applying RTOS and embedded systems concepts to a multi-component interactive project
 
-**Code:** Private course repository  
+
 
 
 ---
@@ -43,7 +44,6 @@ Developing a multi-phase 5-stage pipelined processor in SystemVerilog for a comp
 - Passed register writeback information through memory and writeback stages
 - Used testbenches and waveform-based debugging to validate functionality
 
-**Code:** Private course repository  
 
 
 ---
@@ -57,7 +57,7 @@ Built a Nios II assembly program for the DE10-Lite board that receives signed in
 - Maintained a running signed sum with out-of-range reset behavior
 - Displayed positive and negative values on seven-segment displays
 
-**Code:** Private course repository  
+ 
 
 
 ---
@@ -71,7 +71,7 @@ Built a stopwatch in Nios II assembly using timer and pushbutton interrupts. The
 - Supported start, stop, lap, resume, and reset behavior
 - Displayed formatted real-time timing data on seven-segment displays
 
-**Code:** Private course repository  
+
 
 
 
