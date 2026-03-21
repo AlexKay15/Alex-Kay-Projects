@@ -49,7 +49,7 @@ Developing a multi-phase 5-stage pipelined processor in SystemVerilog for a comp
 ---
 
 ### Interrupt-Driven JTAG Adder
-Built a Nios II assembly program for the DE10-Lite that receives signed integer input over JTAG UART, maintains a running sum, and displays the result on the seven-segment displays. The design uses interrupts, handles negative values, and resets on overflow outside the displayable range.
+Built a Nios II assembly program for the DE10-Lite that receives signed integer input over JTAG UART, maintains a running sum, and displays the result on seven-segment displays. The design uses interrupts, supports negative values, and resets when the running total exceeds the supported display range.
 
 **Description:**
 - Implemented JTAG UART interrupt handling in Nios II assembly
