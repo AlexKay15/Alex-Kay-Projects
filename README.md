@@ -1,7 +1,6 @@
 # Alex Kay – Computer Engineering Projects
 
-Electrical and Computer Engineering student at the University of Colorado Boulder with experience in concurrent programming, embedded systems, computer organization, interrupts, and low-level software development.
-
+Electrical and Computer Engineering student at the University of Colorado Boulder with experience in concurrent programming, real-time operating systems, embedded systems, computer organization, interrupt-driven systems, and low-level software development.
 ## Featured Projects
 
 ### Concurrent Containers
